@@ -1,0 +1,10 @@
+include ':Crouter'
+include ':TestRouter-annotation'
+include ':TestRouter-compiler'
+//include ':aptdemo'
+include ':web'
+include ':settingplugin'
+include ':loginplugin'
+include ':baselib'
+include ':app'
+rootProject.name = "ArouterDemo"

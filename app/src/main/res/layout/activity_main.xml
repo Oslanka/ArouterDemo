@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转登陆" />
+
+        <Button
+            android:id="@+id/bt_login_with_parms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="带参跳转登陆" />
+
+
+        <Button
+            android:id="@+id/bt_login_with_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试Result" />
+
+        <Button
+            android:id="@+id/bt_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转设置" />
+
+
+        <Button
+            android:id="@+id/bt_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转web" />
+
+        <Button
+            android:id="@+id/bt_self"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通过自定义Router 跳转" />
+    </LinearLayout>
+</layout>
